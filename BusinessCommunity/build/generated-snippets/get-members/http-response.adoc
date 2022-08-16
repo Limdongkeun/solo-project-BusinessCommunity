@@ -1,0 +1,47 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 200 OK
+Content-Type: application/json;charset=UTF-8
+Content-Length: 731
+
+[ {
+  "memberId" : 1,
+  "name" : "김코딩",
+  "sex" : "M",
+  "companyName" : "LG",
+  "companyType" : {
+    "companyTypeId" : 2,
+    "type" : "MEDICAL"
+  },
+  "companyLocation" : {
+    "companyLocationId" : 3,
+    "location" : "인천"
+  }
+}, {
+  "memberId" : 2,
+  "name" : "HGD",
+  "sex" : "M",
+  "companyName" : "codestates",
+  "companyType" : {
+    "companyTypeId" : 3,
+    "type" : "ECOMMERCE"
+  },
+  "companyLocation" : {
+    "companyLocationId" : 4,
+    "location" : "부산"
+  }
+}, {
+  "memberId" : 3,
+  "name" : "LBW",
+  "sex" : "W",
+  "companyName" : "samsung",
+  "companyType" : {
+    "companyTypeId" : 2,
+    "type" : "MEDICAL"
+  },
+  "companyLocation" : {
+    "companyLocationId" : 5,
+    "location" : "수원"
+  }
+} ]
+----

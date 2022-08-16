@@ -1,0 +1,21 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 200 OK
+Content-Type: application/json;charset=UTF-8
+Content-Length: 244
+
+[ {
+  "memberId" : 1,
+  "name" : "김코딩",
+  "sex" : "M",
+  "companyName" : "LG",
+  "companyType" : {
+    "companyTypeId" : 2,
+    "type" : "MEDICAL"
+  },
+  "companyLocation" : {
+    "companyLocationId" : 3,
+    "location" : "인천"
+  }
+} ]
+----

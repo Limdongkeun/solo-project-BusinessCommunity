@@ -1,0 +1,10 @@
+|===
+|Parameter|Description
+
+|`+location+`
+|회사 위치
+
+|`+type+`
+|업종
+
+|===
